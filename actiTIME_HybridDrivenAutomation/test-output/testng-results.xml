@@ -2,30 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Verify Error Message:Pass:Error message is Username or Password is invalid. Please try again.]]>
+      <![CDATA[Verify Error Message:Pass:Error message is Customer "SVD" has been successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[Verify Error Message:Pass:Error message is Customer has been successfully deleted.]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9435" started-at="2020-02-04T17:45:14Z" finished-at="2020-02-04T17:45:24Z">
+  <suite name="Default suite" duration-ms="25948" started-at="2020-02-05T02:54:29Z" finished-at="2020-02-05T02:54:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9435" started-at="2020-02-04T17:45:14Z" finished-at="2020-02-04T17:45:24Z">
-      <class name="com.actitime.testCases.TC_AT_LoginLogout_InValid">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.testCases.TC_AT_LoginLogout_InValid@548e7350]" name="preCondition" is-config="true" duration-ms="10204" started-at="2020-02-04T17:45:04Z" finished-at="2020-02-04T17:45:14Z">
+    <test name="Default test" duration-ms="25948" started-at="2020-02-05T02:54:29Z" finished-at="2020-02-05T02:54:55Z">
+      <class name="com.actitime.customer.TC_Customer_Create_Valid">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.customer.TC_Customer_Create_Valid@548e7350]" name="preCondition" is-config="true" duration-ms="10452" started-at="2020-02-05T02:54:19Z" finished-at="2020-02-05T02:54:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="TC_AT_LoginLogout_InValid_Test()[pri:0, instance:com.actitime.testCases.TC_AT_LoginLogout_InValid@548e7350]" name="TC_AT_LoginLogout_InValid_Test" duration-ms="9400" started-at="2020-02-04T17:45:14Z" finished-at="2020-02-04T17:45:24Z">
+        <test-method status="PASS" signature="TC_Customer_Create_Valid_Test()[pri:0, instance:com.actitime.customer.TC_Customer_Create_Valid@548e7350]" name="TC_Customer_Create_Valid_Test" duration-ms="25904" started-at="2020-02-05T02:54:29Z" finished-at="2020-02-05T02:54:55Z">
           <reporter-output>
             <line>
-              <![CDATA[Verify Error Message:Pass:Error message is Username or Password is invalid. Please try again.]]>
+              <![CDATA[Verify Error Message:Pass:Error message is Customer "SVD" has been successfully created.]]>
+            </line>
+            <line>
+              <![CDATA[Verify Error Message:Pass:Error message is Customer has been successfully deleted.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_AT_LoginLogout_InValid_Test -->
-        <test-method status="PASS" signature="afterSuiteMethod()[pri:0, instance:com.actitime.testCases.TC_AT_LoginLogout_InValid@548e7350]" name="afterSuiteMethod" is-config="true" duration-ms="777" started-at="2020-02-04T17:45:24Z" finished-at="2020-02-04T17:45:24Z">
+        </test-method> <!-- TC_Customer_Create_Valid_Test -->
+        <test-method status="PASS" signature="afterSuiteMethod()[pri:0, instance:com.actitime.customer.TC_Customer_Create_Valid@548e7350]" name="afterSuiteMethod" is-config="true" duration-ms="1144" started-at="2020-02-05T02:54:55Z" finished-at="2020-02-05T02:54:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuiteMethod -->
-      </class> <!-- com.actitime.testCases.TC_AT_LoginLogout_InValid -->
+      </class> <!-- com.actitime.customer.TC_Customer_Create_Valid -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

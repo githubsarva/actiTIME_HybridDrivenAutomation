@@ -1,4 +1,4 @@
-package com.actitime.testCases;
+package com.actitime.loginlogout;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;

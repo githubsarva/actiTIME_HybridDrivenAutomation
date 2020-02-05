@@ -32,8 +32,33 @@ public class ProjectSpecific  {
 			Reporter.log(msg,true);
 		}
 	}
+	
+	public void verifySuccessMsg(String ev){
+		String av= driver.findElement(By.className("successmsg")).getText();
+		if(av.equals(ev))
+		{
+			Reporter.log("Verify Error Message:Pass:Error message is " + av, true);
+		}
+		else
+		{
+			String msg="Verify Error Message:Fail:\n Actual Message is " + av +"\n Expected message" + ev;
+			Reporter.log(msg,true);
+		}
+	}
 
+	public void verifySuccessContainsMsg(String ev){
+		String av = driver.findElement(By.className("successmsg")).getText();
+		if(av.contains(ev)){
+			Reporter.log("Verify Error Message:Pass:Error message is " + av, true);
+		}else
+		{
+			String msg="Verify Error Message:Fail:\n Actual Message is " + av +"\n Expected message" + ev;
+			Reporter.log(msg,true);
+		
+			
+		}
 	
 	
 
+}
 }

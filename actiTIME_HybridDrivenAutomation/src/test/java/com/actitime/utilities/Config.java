@@ -5,8 +5,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.actitime.loginlogout.TC_AT_LoginLogout_Valid;
 import com.actitime.pageObjects.AT_LoginLogout_Valid;
-import com.actitime.testCases.TC_AT_LoginLogout_Valid;
+import com.actitime.pageObjects.CustomerPage;
 
 
 
@@ -18,6 +19,8 @@ public class Config {
 	public static ProjectSpecific ps = null;
 	
 	public AT_LoginLogout_Valid lo;
+	
+	public CustomerPage cp;
 	
 	
 	@BeforeSuite
