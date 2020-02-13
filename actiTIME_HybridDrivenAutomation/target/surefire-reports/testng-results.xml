@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Verify Error Message:Pass:Error message is Customer "SVD" has been successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[Verify Error Message:Pass:Error message is Customer has been successfully deleted.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50810" started-at="2020-02-13T01:41:10Z" finished-at="2020-02-13T01:42:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50810" started-at="2020-02-13T01:41:10Z" finished-at="2020-02-13T01:42:01Z">
+      <class name="com.actitime.customer.TC_Customer_Create_Valid">
+        <test-method status="PASS" signature="TC_Customer_Create_Valid_Test()[pri:0, instance:com.actitime.customer.TC_Customer_Create_Valid@506e6d5e]" name="TC_Customer_Create_Valid_Test" duration-ms="23198" started-at="2020-02-13T01:41:38Z" finished-at="2020-02-13T01:42:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify Error Message:Pass:Error message is Customer "SVD" has been successfully created.]]>
+            </line>
+            <line>
+              <![CDATA[Verify Error Message:Pass:Error message is Customer has been successfully deleted.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Customer_Create_Valid_Test -->
+      </class> <!-- com.actitime.customer.TC_Customer_Create_Valid -->
+      <class name="com.actitime.loginlogout.TC_AT_LoginLogout_Valid">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.loginlogout.TC_AT_LoginLogout_Valid@2812cbfa]" name="preCondition" is-config="true" duration-ms="10063" started-at="2020-02-13T01:41:00Z" finished-at="2020-02-13T01:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="TC_AT_LoginLogout_ValidTest()[pri:0, instance:com.actitime.loginlogout.TC_AT_LoginLogout_Valid@2812cbfa]" name="TC_AT_LoginLogout_ValidTest" duration-ms="15853" started-at="2020-02-13T01:41:10Z" finished-at="2020-02-13T01:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AT_LoginLogout_ValidTest -->
+        <test-method status="PASS" signature="afterSuiteMethod()[pri:0, instance:com.actitime.loginlogout.TC_AT_LoginLogout_Valid@2812cbfa]" name="afterSuiteMethod" is-config="true" duration-ms="818" started-at="2020-02-13T01:42:01Z" finished-at="2020-02-13T01:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- com.actitime.loginlogout.TC_AT_LoginLogout_Valid -->
+      <class name="com.actitime.loginlogout.TC_AT_LoginLogout_InValid">
+        <test-method status="PASS" signature="TC_AT_LoginLogout_InValid_Test()[pri:0, instance:com.actitime.loginlogout.TC_AT_LoginLogout_InValid@2acf57e3]" name="TC_AT_LoginLogout_InValid_Test" duration-ms="11712" started-at="2020-02-13T01:41:26Z" finished-at="2020-02-13T01:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AT_LoginLogout_InValid_Test -->
+      </class> <!-- com.actitime.loginlogout.TC_AT_LoginLogout_InValid -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
